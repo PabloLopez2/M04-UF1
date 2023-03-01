@@ -15,7 +15,7 @@ Cyber: Llenguatges de Marques (M04 - UF1)
 	* Se cierran en sí mismas. Por ejemplo la edad, es una cosa muy concreta, entonces es recomendable hacerla impar.
 
 
-**Ejemplo de atributo o propiedad**
+### Ejemplo de atributo o propiedad
 > **\<age value="197" />** → Value es un atributo o propiedad. Un atributo es una propiedad que se define dentro de la etiqueta de un elemento y proporciona información adicional sobre ese elemento. 
 	
 *Cosas a tener en cuenta:*
