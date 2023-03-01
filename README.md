@@ -2,7 +2,11 @@
 Cyber: Llenguatges de Marques (M04 - UF1)
 
 ## XML
-Aquí irán los apuntes de XML
+Aquí irán los apuntes de **XML**
+
+* uno
+* dos
+* tres
 
 ## DTD
-apuntes DTD
+los _apuntes_ de DTD
