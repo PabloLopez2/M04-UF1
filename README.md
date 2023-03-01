@@ -51,13 +51,16 @@ fun printOnlyOdds(list: List<Int?>) {
 
 
 
-
-
-
-
-
 ### Carácteres extendidos
 :poop: :alien: :cry: :imp: :relaxed: :laughing: :cherries: :rat:
 
 
+### Estilo de caracteres
 
+*cursiva* _cursiva_
+
+**negrita** __negrita__
+
+~~TACHADO~~
+
+~~*** tachado negrita u cursiva ***~~
