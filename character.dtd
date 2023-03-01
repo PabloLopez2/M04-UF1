@@ -1,0 +1,14 @@
+<!DOCTYPE character [
+
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT surname (#PCDATA)>
+<!ELEMENT value (#PCDATA)>
+<!ELEMENT age EMPTY>
+<!ELEMENT race (#PCDATA)>
+<!ELEMENT class (#PCDATA)>
+<!ELEMENT gender (#PCDATA)>
+<!ELEMENT height EMPTY>
+<!ELEMENT weight EMPTY>
+<!ELEMENT language (#PCDATA)>
+
+]>
