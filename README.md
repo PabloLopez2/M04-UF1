@@ -26,7 +26,7 @@ Eso sí, es importante escribir en inglés, no hay que escribir ñ, ç, ´, (no 
 >**UTF-8** → ignifica que incluye todos los carácteres (sistema de codificación universal) incluidos extraterrestres (emojis). 
 
 
-### Codigo en XML:
+### Código en XML:
 ```XML
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE character SYSTEM "character.dtd">
