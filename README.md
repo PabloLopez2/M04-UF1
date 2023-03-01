@@ -25,4 +25,7 @@ los _apuntes_ de DTD
 Enlace
 [CondorChem](https://condorchem.com)
 
-Y [ESTO](http://enti.cat) 
+Y [ESTO](http://enti.cat) es otro enlace
+
+### Imagen incrustada
+![Descripcion de la imagen](https://5.imimg.com/data5/SJ/GR/TW/SELLER-63202466/ventorlin-inhaler-500x500.jpg)
