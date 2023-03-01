@@ -10,3 +10,7 @@ Aquí irán los apuntes de **XML**
 
 ## DTD
 los _apuntes_ de DTD
+
+> Esto sirve para citar
+> Para destacar cosas concretas
+> como un codiguito
