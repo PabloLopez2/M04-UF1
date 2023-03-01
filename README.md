@@ -44,4 +44,9 @@ fun printOnlyOdds(list: List<Int?>) {
 }
 ```
 
+### Listas de tareas
+- [ ] Primera tarea
+- [X] Segunda tarea
+- [ ] Tercera tarea
+
 
