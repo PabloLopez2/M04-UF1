@@ -18,3 +18,11 @@ los _apuntes_ de DTD
 > para destacar cosas concretas
 > como un codiguito
 >> Esto es una cita **dentro** de una _cita_ 
+
+
+---
+
+Enlace
+[CondorChem](https://condorchem.com)
+
+Y [ESTO](http://enti.cat) 
