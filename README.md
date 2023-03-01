@@ -33,7 +33,7 @@ Y [ESTO](http://enti.cat) es otro enlace
 
 ### Ejemplo de resaltado de sintaxis
 
-```
+```kotlin
 fun printOnlyOdds(list: List<Int?>) {
 
     for (element in list) {
