@@ -23,6 +23,8 @@ Cyber: Llenguatges de Marques (M04 - UF1)
 Todo archivo XML, necesita una **etiqueta raíz**, una etiqueta donde dependen el resto de elementos (como el root), lo ideal es que represente algo (ej: character) y toda etiqueta raíz debe cerrarse. 
 Eso sí, es importante escribir en inglés, no hay que escribir ñ, ç, ´, (no poner anio, anyo, o ano).
 
+>**UTF-8** → ignifica que incluye todos los carácteres (sistema de codificación universal) incluidos extraterrestres (emojis). 
+
 
 
 
