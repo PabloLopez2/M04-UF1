@@ -4,7 +4,7 @@ Cyber: Llenguatges de Marques (M04 - UF1)
 ## XML
 
 ### Tipos de etiquetas
->**cabecera →** ```XML \<?xml version="1.0" encoding="UTF-8" ?>. ``` 
+>**cabecera →** ```XML <?xml version="1.0" encoding="UTF-8" ?>``` 
 >>Esto indica a nuestro programa o a la librería que utilizamos internamente de programación, que es lo que vamos a leer, qué codificación y que versión del estándar es.
 
 >**Para comentar →** \<!-- texto -->
