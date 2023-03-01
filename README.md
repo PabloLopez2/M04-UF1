@@ -4,10 +4,10 @@ Cyber: Llenguatges de Marques (M04 - UF1)
 ## XML
 
 ### Tipos de etiquetas
->cabecera → \<?xml version="1.0" encoding="UTF-8" ?>. 
+>**cabecera →** \<?xml version="1.0" encoding="UTF-8" ?>. 
 >>Esto indica a nuestro programa o a la librería que utilizamos internamente de programación, que es lo que vamos a leer, qué codificación y que versión del estándar es.
 
->Para comentar → \<!-- texto -->
+>**Para comentar →** \<!-- texto -->
 
 * Etiquetas pares:
 	* Se abren y cierran, Cuando lo que tenemos que escribir es muy variable, puede ser par (character por ejemplo, o cuando algo vaya a contener muchos datos)
@@ -16,7 +16,7 @@ Cyber: Llenguatges de Marques (M04 - UF1)
 
 
 **Ejemplo de atributo o propiedad**
-> \<age value="197" /> → Value es un atributo o propiedad. Un atributo es una propiedad que se define dentro de la etiqueta de un elemento y proporciona información adicional sobre ese elemento. 
+> **\<age value="197" />** → Value es un atributo o propiedad. Un atributo es una propiedad que se define dentro de la etiqueta de un elemento y proporciona información adicional sobre ese elemento. 
 	
 *Cosas a tener en cuenta:*
 
