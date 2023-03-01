@@ -1,8 +1,8 @@
-<!DOCTYPE character [
+<!ELEMENT character (name, surname, age, race, class, 
+	height, weight, language, TieneLaEso, weapons?)>
 
 <!ELEMENT name (#PCDATA)>
 <!ELEMENT surname (#PCDATA)>
-<!ELEMENT value (#PCDATA)>
 <!ELEMENT age EMPTY>
 <!ELEMENT race (#PCDATA)>
 <!ELEMENT class (#PCDATA)>
@@ -10,5 +10,12 @@
 <!ELEMENT height EMPTY>
 <!ELEMENT weight EMPTY>
 <!ELEMENT language (#PCDATA)>
+<!ELEMENT weapons (weapon*)>
+<!ELEMENT weapon EMPTY>
 
-]>
+<!ATTLIST character id_character CDATA #REQUIRED> 
+<!ATTLIST age years CDATA #REQUIRED> 
+<!ATTLIST gender abbrev CDATA #REQUIRED> 
+<!ATTLIST height cm CDATA #REQUIRED> 
+<!ATTLIST weight kg CDATA #REQUIRED> 
+<!ATTLIST language abbrev CDATA #REQUIRED> 
