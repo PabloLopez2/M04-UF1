@@ -50,3 +50,14 @@ fun printOnlyOdds(list: List<Int?>) {
 - [ ] Tercera tarea
 
 
+
+
+
+
+
+
+### Carácteres extendidos
+:poop: :alien: :cry: :imp: :relaxed: :laughing: :cherries: :rat:
+
+
+
