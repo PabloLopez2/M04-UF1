@@ -18,7 +18,12 @@ Cyber: Llenguatges de Marques (M04 - UF1)
 **Ejemplo de atributo o propiedad**
 > \<age value="197" /> → Value es un atributo o propiedad. Un atributo es una propiedad que se define dentro de la etiqueta de un elemento y proporciona información adicional sobre ese elemento. 
 	
-	
+*Cosas a tener en cuenta:*
+
+Todo archivo XML, necesita una **etiqueta raíz**, una etiqueta donde dependen el resto de elementos (como el root), lo ideal es que represente algo (ej: character) y toda etiqueta raíz debe cerrarse. 
+Eso sí, es importante escribir en inglés, no hay que escribir ñ, ç, ´, (no poner anio, anyo, o ano).
+
+
 
 
 
