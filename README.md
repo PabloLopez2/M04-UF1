@@ -4,16 +4,23 @@ Cyber: Llenguatges de Marques (M04 - UF1)
 ## XML
 Aquí irán los apuntes de **XML**
 
+
+
+## DTD
+los _apuntes_ de DTD
+
+
+## MarkDown
+
+### Listas
 * uno
 	* sub apartado 1
 * dos
 	* sub apartado 2
 * tres
 	* sub apartado 3
-
-## DTD
-los _apuntes_ de DTD
-
+	
+### Citas
 > Esto sirve para citar
 > para destacar cosas concretas
 > como un codiguito
@@ -21,6 +28,8 @@ los _apuntes_ de DTD
 
 
 ---
+
+### Enlaces
 
 Enlace
 [CondorChem](https://condorchem.com)
@@ -63,4 +72,12 @@ fun printOnlyOdds(list: List<Int?>) {
 
 ~~TACHADO~~
 
-~~*** tachado negrita u cursiva ***~~
+~~***tachado negrita u cursiva***~~
+
+### Tablas
+| id_character | name | age | level |
+| --- | --- | --- | --- |
+| 1 | Eustaquio | 197 | 99 |
+| 2 | Mariana | 20 | 100 | 
+| 3 | Mortadelo | 100 | 1 |
+| 4 | Messi | 44 | 99 |
