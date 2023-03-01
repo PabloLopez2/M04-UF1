@@ -54,7 +54,30 @@ Eso sí, es importante escribir en inglés, no hay que escribir ñ, ç, ´, (no 
 
 
 ## DTD
-los _apuntes_ de DTD
+### Código en DTD
+```DTD
+<!ELEMENT character (name, surname, age, race, class, 
+	height, weight, language, TieneLaEso, weapons?)>
+
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT surname (#PCDATA)>
+<!ELEMENT age EMPTY>
+<!ELEMENT race (#PCDATA)>
+<!ELEMENT class (#PCDATA)>
+<!ELEMENT gender (#PCDATA)>
+<!ELEMENT height EMPTY>
+<!ELEMENT weight EMPTY>
+<!ELEMENT language (#PCDATA)>
+<!ELEMENT weapons (weapon*)>
+<!ELEMENT weapon EMPTY>
+
+<!ATTLIST character id_character CDATA #REQUIRED> 
+<!ATTLIST age years CDATA #REQUIRED> 
+<!ATTLIST gender abbrev CDATA #REQUIRED> 
+<!ATTLIST height cm CDATA #REQUIRED> 
+<!ATTLIST weight kg CDATA #REQUIRED> 
+<!ATTLIST language abbrev CDATA #REQUIRED> 
+```
 
 
 ## MarkDown
