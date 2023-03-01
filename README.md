@@ -26,7 +26,30 @@ Eso sí, es importante escribir en inglés, no hay que escribir ñ, ç, ´, (no 
 >**UTF-8** → ignifica que incluye todos los carácteres (sistema de codificación universal) incluidos extraterrestres (emojis). 
 
 
-
+### Codigo en XML:
+```XML
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE character SYSTEM "character.dtd">
+<character id_character="1">
+	<name>Eustaquio</name>
+	<surname>Mendoza</surname>
+	<!-- Comentario -->
+	<age value="197" />
+	<race>Enano</race>
+	<class>Artificiero</class>
+	<gender abbrev="N">Non-Binary</gender>
+	<height cm="130" />
+	<weight kg="80" />
+	<language abbrev="prt">Portugués</language>
+	<TieneLaEso />
+	<weapons>
+		<weapon id_weapon="1" />
+		<weapon id_weapon="3" />
+		<weapon id_weapon="7" />
+		<weapon id_weapon="1" />
+	</weapons>
+</character> 
+```
 
 
 
