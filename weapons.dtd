@@ -1,0 +1,38 @@
+
+<!--Elements-->
+  <!ELEMENT weapon (physical_damage, physical_defense, magical_damage, magical_defense, 
+  level, rarity, cost, hands, weight, durability, uses, 
+  ammo, class, element, description)>
+  <!ELEMENT physical_damage (#PCDATA)>
+  <!ELEMENT physical_defense (#PCDATA)>
+  <!ELEMENT magical_damage (#PCDATA)>
+  <!ELEMENT magical_defense (#PCDATA)>
+  <!ELEMENT level (#PCDATA)>
+  <!ELEMENT rarity (#PCDATA)>
+  <!ELEMENT cost (#PCDATA)>
+  <!ELEMENT hands (#PCDATA)>
+  <!ELEMENT weight (#PCDATA)>
+  <!ELEMENT durability (#PCDATA)>
+  <!ELEMENT uses (#PCDATA)>
+  <!ELEMENT ammo (#PCDATA)>
+  <!ELEMENT class (#PCDATA)>
+  <!ELEMENT element (#PCDATA)>
+  <!ELEMENT description EMPTY>
+
+<!--Atributes-->
+  <!ATTLIST weapon id_weapon ID #REQUIRED>
+  <!ATTLIST physical_damage value CDATA #REQUIRED>
+  <!ATTLIST physical_defense value CDATA #REQUIRED>
+  <!ATTLIST magical_damage value CDATA #REQUIRED>
+  <!ATTLIST magical_defense value CDATA #REQUIRED>
+  <!ATTLIST level min CDATA #IMPLIED>
+  <!ATTLIST rarity CDATA #REQUIRED>
+  <!ATTLIST cost CDATA #REQUIRED>
+  <!ATTLIST hands CDATA #REQUIRED>
+  <!ATTLIST weight kg CDATA #REQUIRED>
+  <!ATTLIST durability CDATA #REQUIRED>
+  <!ATTLIST uses CDATA #REQUIRED>
+  <!ATTLIST ammo max CDATA #REQUIRED>
+  <!ATTLIST class CDATA #REQUIRED>
+  <!ATTLIST element CDATA #REQUIRED>
+  <!ATTLIST description text CDATA #REQUIRED>

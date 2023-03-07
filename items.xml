@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE items SYSTEM "items.dtd">
+<items>
+	<item>
+		<name>Canelones Yaya</name>
+		<weight>2</weight>
+		<rarity>999</rarity>
+		<cost>10000</cost>
+		<consumable>1</consumable>
+		<durability>900</durability>
+		<uses>1</uses>
+		<level_min>50</level_min>
+		<hp>1000</hp>
+		<mp>1000</mp>
+		<key>0</key>
+		<class>Comida</class>
+		<description>Esta bueno</description>
+	</item>
+	
+	<item>
+		<name>Viagra</name>
+		<weight>0.01</weight>
+		<rarity>10</rarity>
+		<cost>6000</cost>
+		<consumable>1</consumable>
+		<durability>150</durability>
+		<uses>100</uses>
+		<level_min>1</level_min>
+		<hp>500</hp>
+		<mp>500</mp>
+		<key>0</key>
+		<class>Droga</class>
+		<description>Buen objeto</description>
+	</item>
+	
+	<item>
+		<name>Pocion</name>
+		<weight>0.5</weight>
+		<rarity>10</rarity>
+		<cost>25</cost>
+		<consumable>1</consumable>
+		<durability>1</durability>
+		<uses>1</uses>
+		<level_min>1</level_min>
+		<hp>250</hp>
+		<mp>0</mp>
+		<key>0</key>
+		<class>cura</class>
+		<description>Da vidilla al asunto</description>
+	</item>
+
+
+</items>

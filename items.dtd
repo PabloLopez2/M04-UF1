@@ -1,0 +1,17 @@
+<!DOCTYPE items [
+    <!ELEMENT items (item+)>
+    <!ELEMENT item (name, weight, rarity, cost, consumable, durability, uses, level_min, hp, mp, key, class, description)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT weight (#PCDATA)>
+    <!ELEMENT rarity (#PCDATA)>
+    <!ELEMENT cost (#PCDATA)>
+    <!ELEMENT consumable (#PCDATA)>
+    <!ELEMENT durability (#PCDATA)>
+    <!ELEMENT uses (#PCDATA)>
+    <!ELEMENT level_min (#PCDATA)>
+    <!ELEMENT hp (#PCDATA)>
+    <!ELEMENT mp (#PCDATA)>
+    <!ELEMENT key (#PCDATA)>
+    <!ELEMENT class (#PCDATA)>
+    <!ELEMENT description (#PCDATA)>
+]>
