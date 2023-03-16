@@ -5,68 +5,83 @@
 
 <head>
 	<title>Pablo López: Estudiante de ENTI</title>
+	<link rel="stylesheet" href="estilo.css" />
 	
-	<style>
+	<script>
 	
-	body{
-	padding:0;
-	margin:0;
+/*
+console.log("ola k ase");
+
+let variable = 33;
+
+console.log(variable);
+
+let palabreja = "Hola ";
+
+let otra_palabreja = "(^_^) ";
+
+let concatenado = palabreja+otra_palabreja;
+
+console.log(concatenado);
+*/
+
+/*
+let contador =0;
+while (contador < 10) {
+	console.log(contador);
+	contador++;
+}
+*/
+
+/*
+for (let i = 0; i<10; i++){
+console.log(i);
+}
+*/
+
+/*
+let valor1 = 10;
+let valor2 = 6;
+
+	if (valor1 == valor2){
+		console.log("Son iguales");
 	}
-	
-	h1 {
-		background-color:olive;
+	else if (valor1 > valor2) {
+		console.log("El valor" ,valor1,"es mayor que",valor2);
 	}
-	
-	h2{
-		color:red;
+	else {
+		console.log("El valor2 es mayor");
 	}
+*/
+
+
+function saluda(nombre) {
+	console.log("ola k ase", nombre)
+}
+
+saluda("JAN");
+
+function alerta_maxima(){
+	alert("Muchas gracias por tus credenciales");
+}
+
+let the_grefg = 0;
+
+function cuenta () {
+	the_grefg++;
 	
-	h3{
-		background-color:aqua;
-		color:black;
-	}
 	
-	ul{
-		border:5px #ff00ff;
-		/*dotted*/
-	}
+	document.getElementById("numerito").innerHTML += " " + the_grefg; 
 	
-	header{
-	background-color:#cccccc;
-	}
 	
-	header p{ 
-	color:#ff00ff;
-	padding:0 0 8px 8px;
-	text-align:center;
-	}
+	console.log( the_grefg );
+}
+
+
+
+
+	</script>
 	
-	header h1{
-	margin:16px;
-	padding:16px;
-	border:1px solid yellow;
-	font-family:sans-serif;
-	}
-	
-	header h1 a{
-	color:#cccccc;
-	}
-	
-	h1,h2,h3,h4{
-	font-family:sans-serif;
-	}
-	
-	blockquote{
-	background-color:#cccccc;
-	padding:32px;
-	border:1px solid #bbbbbb;
-	}
-	
-	blockquote em{
-	font-family:sans-serif;
-	color:#ff22ff
-	
-	</style>
 	
 </head>
 
@@ -75,7 +90,14 @@
 	<header>
 		<h1><a href="index.html">Pablo López</a></h1>
 		<p>ENTI, Escola de Noves Tecnologies Interactives</p>
+		
+		
 	</header>
+	
+	<form>
+		<p>0</p>
+		<input type="button" value="Iphone gratis aquí" onClick="the_grefg();" />
+	</form>
 	
 	<nav>
 		<ul>
@@ -99,58 +121,67 @@
 		<p><img src="https://d273yxk2oj202w.cloudfront.net/upldr/enti-classlife-education/2023/03/07/minithumbnail/Ada-Lovelace.jpg" alt="Foto de perfil de classlife" /></p>
 		<h3>Asignaturas</h3>
         <ul>
-            <li> Implantació de sistemes operatius (Rafa Laguna Corripio)</li>
+            <li> Implantació de sistemes operatius (Rafa Laguna Corripio)
                 <ul>
                     <li>Instal·lació, configuració i explotació del sistema informàtic </li>
                     <li>Gestió de la informació i de recursos en una xarxa </li>
                     <li>Implantació de programari específic </li>
                     <li>Seguretat, rendiment i recursos </li>
                 </ul>
-            <li> Gestió de bases de dades (Rafa Laguna Corripio)</li>
+			</li>	
+            <li> Gestió de bases de dades (Rafa Laguna Corripio)
                 <ul>
                     <li>Introducció a les bases de dades </li>
                     <li>Llenguatges SQL: DML i DDL </li>
                     <li>Assegurament de la informació </li>
                 </ul>
-            <li> Programació bàsica (Pau Garcia Gozàlvez)</li>
+			</li>
+            <li> Programació bàsica (Pau Garcia Gozàlvez)
                 <ul>
                     <li>Programació estructurada </li>
                     <li>Disseny modular </li>
                     <li>Fonaments de gestió de fitxers </li>
                 </ul>
-            <li> Llenguatge de marques i sistemes de gestió d’informació (Rafa Laguna Corripio)</li>
+			</li>
+            <li> Llenguatge de marques i sistemes de gestió d’informació (Rafa Laguna Corripio)
                 <ul>
                     <li>Programació amb XML </li>
                     <li>Àmbits d’aplicació de l’XML </li>
                     <li>Sistemes de gestió empresarial </li>
                 </ul>
-            <li> Fonaments de maquinari (Oriol Martínez)</li>
+			</li>	
+            <li> Fonaments de maquinari (Oriol Martínez)
                 <ul>
                     <li>Arquitectura de sistemes </li>
                     <li>Instal·lació, configuració i recuperació de programari </li>
                     <li>Implantació i manteniment de CPD </li>
                 </ul>
-            <li> Seguretat i alta disponibilitat (Josuè Sallent i Oriol Condal)</li>
+			</li>
+            <li> Seguretat i alta disponibilitat (Josuè Sallent i Oriol Condal)
                 <ul>
                     <li>Seguretat física, lógica i legislació </li>
                     <li>Seguretat activa i accés remot </li>
                     <li>Tallafocs i servidors intemedis </li>
                     <li>Alta disponibilitat </li>
                 </ul>
-            <li> Formació i orientació laboral (Anna Pujol)</li>
+			</li>	
+            <li> Formació i orientació laboral (Anna Pujol)
                 <ul>
                     <li>Incorporació al treball </li>
                     <li>Prevenció de riscos laborals </li>
                 </ul>
-            <li> Empresa i iniciativa emprenedora (Anna Pujol)</li>
+			</li>	
+            <li> Empresa i iniciativa emprenedora (Anna Pujol)
                 <ul>
                     <li>Empresa i iniciativa emprenedora </li>
                 </ul>
-            <li> Ciberseguretat i Hacking ètic ( Oriol Condal)</li>
-                <ul>
-                    <li>Ciberseguretat i Ciberinteligencia </li>
-                    <li>Hacking ètic </li>
-                </ul>
+			</li>	
+			<li> Ciberseguretat i Hacking ètic ( Oriol Condal)
+				<ul>
+					<li>Ciberseguretat i Ciberinteligencia </li>
+					<li>Hacking ètic </li>
+				</ul>
+			</li>	
         </ul>
 		
 		

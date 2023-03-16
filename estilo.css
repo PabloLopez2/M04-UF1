@@ -1,0 +1,120 @@
+	body{
+	padding:0;
+	margin:0;
+	}
+	
+	header p{
+	color:#ffffff;
+	text-align:center;
+	margin:0;
+	padding:8px 0 8px 0;
+
+	}
+	
+	
+	h1 {
+		background-color:olive;
+	}
+	
+	h2{
+		color:red;
+	}
+	
+	h3{
+		background-color:aqua;
+		color:black;
+	}
+	
+	ul{
+		border:5px #ff00ff;
+		/*dotted*/
+	}
+	
+	header{
+	background-color:#cccccc;
+	}
+	
+	header p{ 
+	color:#ff00ff;
+	padding:0 0 8px 8px;
+	text-align:center;
+	}
+	
+	header h1{
+	margin:16px;
+	padding:16px;
+	border:1px solid yellow;
+	font-family:sans-serif;
+	}
+	
+	header h1 a{
+	color:#cccccc;
+	}
+	
+	h1,h2,h3,h4{
+	font-family:sans-serif;
+	}
+	
+	blockquote{
+	background-color:#cccccc;
+	padding:32px;
+	border:1px solid #bbbbbb;
+	}
+	
+	blockquote em{
+	font-family:sans-serif;
+	color:#ff22ff;
+	}
+	
+	nav{
+	background-color:#aaaaaa;
+	margin:0;	
+	}	
+	
+	nav a{
+	display:block;
+	text-decoration:none;
+	padding:8px 16px 8px 16px;
+	width:100%;
+	color:#ffffff;
+	text-align:center;
+	}
+	
+	nav ul{
+	display:flex;
+	flex-direction:row;
+	margin:0;
+	padding:0;
+	list-style:none;
+	color:red;
+	}
+	
+	nav ul li{
+	flex-grow:1;
+	}
+	
+	nav ul a{
+	display:block;
+	}
+	
+	nav ul a:hover{
+	background-color:green;
+	}
+	
+	footer{
+	background:radial-gradient(circle, #ffff00 0%, #333333 100%);
+	border-top 2px solid #333333;
+	border-top:2px dashed #000000;
+	color:#ffffff;
+	padding:8px 0 8px 0;
+	text-align:center;
+	}
+	
+	footer p{
+	margin:0;
+	}
+	
+	main{
+	padding:0 32px 0 32px;
+	}
+	
