@@ -1,120 +1,130 @@
-	body{
-	padding:0;
-	margin:0;
-	}
-	
-	header p{
-	color:#ffffff;
-	text-align:center;
-	margin:0;
-	padding:8px 0 8px 0;
-
-	}
-	
-	
-	h1 {
-		background-color:olive;
-	}
-	
-	h2{
-		color:red;
-	}
-	
-	h3{
-		background-color:aqua;
-		color:black;
-	}
-	
-	ul{
-		border:5px #ff00ff;
-		/*dotted*/
-	}
-	
-	header{
-	background-color:#cccccc;
-	}
-	
-	header p{ 
-	color:#ff00ff;
-	padding:0 0 8px 8px;
-	text-align:center;
-	}
-	
-	header h1{
-	margin:16px;
-	padding:16px;
-	border:1px solid yellow;
-	font-family:sans-serif;
-	}
-	
-	header h1 a{
-	color:#cccccc;
-	}
-	
-	h1,h2,h3,h4{
-	font-family:sans-serif;
-	}
-	
-	blockquote{
+body{
+margin:0px;
+background-color:grey;
+color:#ffffff;
+padding-bottom:60px; /*Las lineas del footer no se tapan*/
+}
+header{
+background-color:black;
+font-family:sans-serif;
+}
+header h1{
+margin:0px;
+/*padding:0;*/
+text-align: center;
+/*border:1px solid grey;*/
+font-family:sans-serif;
+}
+header h1 a{
+color:#ffffff;
+text-decoration:none; /*quita la linea del link*/
+}
+/*esto es un pseudoselector*/
+h1 a:hover/*hand over*/{
+text-decoration:underline;
+/*background:#fff;*/
+/*color:#000;*/
+}
+header p{
+color:#ffffff;
+padding:0px 0px 16px 0px;
+margin:0;
+text-align:center;
+}
+main{
+padding: 0 32px 0 32px;
+font-family:sans-serif;
+}
+h1,h2,h3,h4{
+font-family:sans-serif;
+}
+blockquote{
 	background-color:#cccccc;
 	padding:32px;
 	border:1px solid #bbbbbb;
 	}
+blockquote em{
+font-family:sans-serif;
+}
+a {
+color:#fff;
+}
+nav::marker{
+background-color:#202020;
+text-align: center;
+}
+/*nav ul {
+display: flex;
+list-style: none;
+padding:0;
+margin: 0;
+}/*para eliminar los puntos de la lista*/
+nav a{
+display:blok;
+}
+nav ul li{
+flex-grow:1;
+}
+nav li a {
+display: block;
+width: 100%;
+height: 100%;
+}
+nav ul li a {
+text-decoration:none;
+}
+nav li:hover {
+background:#666;
+cursor: pointer;
+}
+nav li:hover a {
+color: #fff;
+}
+footer {
+position: fixed; /* establece la posición de un elemento*/
+bottom: 0;
+width: 100%;
+display: flex;
+align-items: center; /*alinea los elementos dentro del contenedor verticalmente en el centro*/
+justify-content: center; /*alinea los elementos dentro del contenedor horizontalmente en el centro*/
+font-size: 11px;
+background-color: #f2f2f2;
+padding: 3px;
+color:#000;
+/*background:radial-gradient(circle, #ffff00 0%, #333333 100%);*/
+}
+footer p {
+font-family:sans-serif;
+margin: 0;
+}
 	
-	blockquote em{
-	font-family:sans-serif;
-	color:#ff22ff;
-	}
+	.my-btn {
+    background: linear-gradient(45deg, #FFA07A, #FF8C00);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+	.my-btn:hover {
+    background: linear-gradient(45deg, #FF8C00, #FFA07A);
 	
-	nav{
-	background-color:#aaaaaa;
-	margin:0;	
-	}	
 	
-	nav a{
-	display:block;
-	text-decoration:none;
-	padding:8px 16px 8px 16px;
-	width:100%;
-	color:#ffffff;
-	text-align:center;
-	}
-	
-	nav ul{
-	display:flex;
-	flex-direction:row;
-	margin:0;
-	padding:0;
-	list-style:none;
-	color:red;
-	}
-	
-	nav ul li{
-	flex-grow:1;
-	}
-	
-	nav ul a{
-	display:block;
-	}
-	
-	nav ul a:hover{
-	background-color:green;
-	}
-	
-	footer{
-	background:radial-gradient(circle, #ffff00 0%, #333333 100%);
-	border-top 2px solid #333333;
-	border-top:2px dashed #000000;
-	color:#ffffff;
-	padding:8px 0 8px 0;
-	text-align:center;
-	}
-	
-	footer p{
-	margin:0;
-	}
-	
-	main{
-	padding:0 32px 0 32px;
-	}
-	
+	<button style="background: black;
+	cursor: pointer;
+	border: none;
+	padding: 16px 32px;
+	color: #FFF;
+	font-size: 24px;
+	font-weight: bold;
+	position: relative;
+	border-radius: 12px;">
+    Texto del botón
+</button>
+
+}

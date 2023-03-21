@@ -4,7 +4,7 @@
 
 
 <head>
-	<title>Pablo López: Estudiante de ENTI</title>
+	<title>Pablo López Socias</title>
 	<link rel="stylesheet" href="estilo.css" />
 	
 	<script>
@@ -70,16 +70,16 @@ let the_grefg = 0;
 function cuenta () {
 	the_grefg++;
 	
-	
 	document.getElementById("numerito").innerHTML += " " + the_grefg; 
 	
-	
-	console.log( the_grefg );
+	console.log(the_grefg);
 }
 
-
-
-
+function generarNumero() {
+  let numeroAleatorio = Math.floor(Math.random() * 100) + 1;
+  let numero = document.getElementById('numero');
+  numero.textContent = numeroAleatorio;
+}
 	</script>
 	
 	
@@ -88,22 +88,46 @@ function cuenta () {
 
 <body>
 	<header>
-		<h1><a href="index.html">Pablo López</a></h1>
-		<p>ENTI, Escola de Noves Tecnologies Interactives</p>
-		
-		
+		<h1><a href="index.html">Pablo López Socias</a></h1>
+		<p>Estudiante de Ciberseguridad en <abbr title="Escola de Noves Tecnologies Interactives">ENTI</abbr>
 	</header>
 	
 	<form>
-		<p>0</p>
-		<input type="button" value="Iphone gratis aquí" onClick="the_grefg();" />
+		<p id="numerito"></p>
+		<input type="button" value="Iphone gratis aquí" onClick="cuenta();" />
+		<input type="button" value="Num Aleatorio" onClick="generarNumero();" />
+		<p id="numero"></p>
+		<input type="button" value="No clicar" onClick="alerta_maxima();" />
+		<input type="button" class="my-btn" value="Botón fachero" />
+
+
 	</form>
+	
+	<style>
+	.my-btn {
+			background: linear-gradient(45deg, #FFA07A, #FF8C00);
+			border: none;
+			color: white;
+			padding: 10px 20px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			border-radius: 10px;
+			cursor: pointer;
+			box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+		}
+		
+		.my-btn:hover {
+			background: linear-gradient(45deg, #FF8C00, #FFA07A);
+		}
+	</style>
 	
 	<nav>
 		<ul>
 			<li><a href="cv.html"><abbr title="Currículum Vitae">CV</abbr></a></li>
 			<li><a href="hobbies.html">Hobbies</a></li>
-			<li><a href="contacto.html">Contactos</a></li>
+			<li><a href="contactos.html">Contactos</a></li>
 		</ul>
 	
 	<main>
@@ -188,22 +212,8 @@ function cuenta () {
 	</main>
 	
 	<footer>
-		<h2>Informacion extra</h2>
-		<p>nmap menos sV menos p menos</p>
-		<p>Iptables menos L</p>
-		<p>ls menos la</p>
+		<h2>Informacion extra: </h2>
+		<p> All rights reserved by Pablo López</p>
+	</footer>
 </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
 </html>
