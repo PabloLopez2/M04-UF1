@@ -53,11 +53,14 @@ nav::marker{
 background-color:#202020;
 text-align: center;
 }
-/*nav ul {
+nav ul {
+justify-content:space-around;
 display: flex;
 list-style: none;
 padding:0;
 margin: 0;
+flex-direction:row;
+text-align:center;
 }/*para eliminar los puntos de la lista*/
 nav a{
 display:blok;
